@@ -1,70 +1,245 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1>React Single Page App</h1>
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📗 Table of Contents](#-table-of-contents)
+- [📖  METRICS-Application ](#-Metrics Application-)
+    - [How to build the "Metrics Application" website](#how-to-build-the-Metrics Application-website)
+  - [🛠 Walk through ](#-walk-through-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Tools ](#tools-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Live Recording ](#-live-recording-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [Authors](#authors)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 COVID-19-APPLICATION <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+"Metrics Application" involves the development of a Single Page application using an external API.
 
-### `npm test`
+I have established the requisite development environment and tools for creating a React application. Subsequent to this, I will proceed with the actual application development in upcoming phases.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Phase 1 - Setup Branch:
 
-### `npm run build`
+The most straightforward approach to initiating a React application is through the utilization of Create React App (CRA), adhering to the instructions outlined in the provided [guide](https://create-react-app.dev/docs/getting-started/). The application must be capable of error-free execution within a web browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Phase 2 - Setup2 Branch:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All prerequisites for the second stage of the project, focused on Components, have been met. I have established a designated directory named "components" within the CRA setup, encompassing textual, visual, and stylistic resources. Within this directory, a new file named "Calculator.js" has been created. Subsequently, a React component has been developed to align with the provided design specifications.
+<!-- > Describe your project in 1 or 2 sentences. -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### How to build the "Metrics Application" website
 
-### `npm run eject`
+- 1. Use REACT to build single page application
+- 2. Apply Linters
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠 Walk through <a name="walk-through"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ul>
+  <li><a href="https://github.com/microverseinc/curriculum-react-redux/blob/main/capstone/react_capstone.md">See the Project Requirement</a></li>
+  <li>If required you should personalize the content of your page. Choose a topic that is different than the one in the original design</li>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🛠 Built With <a name="built-with"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**_feature-One_**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Imeplementation of Basic Framework linters error free.
+- Implementation of <a href="https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/gitflow.md">Gitflow</a>
 
-### Code Splitting
+**_feature-two_**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Implementation of <a href="https://github.com/webpack/webpack">Webpack Framework</a>
 
-### Analyzing the Bundle Size
+**_feature-three_**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- We will create a METRICS APP single page Website for the visitor eloborating different options
+- Choose images, text, icons, fonts.
+- Set up the repository and tools has been done in feature-one, and feature-two
 
-### Making a Progressive Web App
+### Tech Stack <a name="tech-stack"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<details>
+  <summary>Client Side / Front-End</summary>
+  <ul>
+    <li><a href="https://www.w3.org/html/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
+    <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details>
 
-### Advanced Configuration
+<details>
+  <summary>Server Side / Back-End</summary>
+  <ul>
+    <li><a href="https://www.json.org/json-en.html">JSON</a></li>
+    <!-- <li><a href=""> - </a></li>
+    <li><a href=""> - </a></li> -->
+  </ul>
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- Features -->
+
+### Tools <a name="tools"></a>
+
+  <details>
+    <summary>Code Convention, Code Analysis</summary>
+      <ul>
+        <li><a href="https://eslint.org/">ESLint</a></li>
+        <li><a href="https://webhint.io/">Webhint</a></li>
+        <li><a href="https://stylelint.io/">Stylelint</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en">Lighthouse</a></li>
+        <li><a href="https://www.npmjs.com/package/npm-check">node_modules checker</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>Version Control, CI/CD, Hosting Service</summary>
+      <ul>
+        <li><a href="https://pages.github.com/">Github Pages</a></li>
+        <li><a href="https://github.com/features/actions">Github Actions</a></li>
+        <li><a href="https://git-scm.com/">Git</a></li>
+      </ul>
+  </details>
+  <details>
+    <summary>IDE, Desktop Apps, Other Tools</summary>
+      <ul>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://desktop.github.com/">Github Desktop</a></li>
+        <li><a href="https://www.behance.net/">Behance</a></li>
+      </ul>
+  </details>
+
+### Key Features <a name="key-features"></a>
+
+
+- Single page application
+- Dynamic page
+- Redux 
+- Styling
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[COMING SOON]
+
+## 🚀 Live Recording <a name="live-demo"></a>
+
+[COMING SOON]
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- git version 2.38.x
+- node.js version > 12.x
+- IDE
+- browser (chrome, firefox, edge, safari)
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd Javascript-capston
+
+  git https://github.com/Bettenoch/Metrics-Application.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd Javascript-capston
+  node npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+run live server
+
+### Run tests
+
+To run tests, run the following command:
+Run Github Actions Test
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+  npx eslint .
+  npm test
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is deployed at github pages you can clone it here. [Please click to clone](coming soon)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+
+👤 **Bett Enoch**
+
+- GitHub: [@bettenoch](https://github.com/Bettenoch)
+- Twitter: [@BybEnoch](https://twitter.com/BybEnoch)
+- LinkedIn: [@GeoIntelligence](https://www.linkedin.com/in/bett-kipngeno-enock-8b5153214/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Project 4: Fetch data from API**
+- [ ] **Project 5: Full website.**
+- [ ] **Project 6: Tests (solo.**
+  
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Bettenoch/Metrics-Application/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give a star to this repositiory.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+I would like to thank MR. Nelson Sakwa on Behance for providing such an amazing design.
+
+I would like to thank the Microverse full-stack curriculum for the inspiration and guidance.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is under [MIT](https://github.com/Bettenoch/Metrics-Application/blob/dev/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
